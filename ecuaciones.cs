@@ -1,0 +1,12 @@
+﻿using System;
+Console.WriteLine("ECUACION CUADRATICA");
+Console.WriteLine("a: ");
+double a = Convert.ToDouble(Console.ReadLine()); Console.WriteLine("a: ");
+Console.WriteLine("b: ");
+double b = Convert.ToDouble(Console.ReadLine()); Console.WriteLine("b: ");
+Console.WriteLine("b: ");
+double c = Convert.ToDouble(Console.ReadLine()); Console.WriteLine("c: ");
+double x1, x2;
+x1 = (-b + Math.Sqrt(b * b - 4 * a * c)) / (2 * a);
+x2 = (-b - Math.Sqrt(b * b - 4 * a * c)) / (2 * a);
+Console.WriteLine($"x1 = {x1}, x2 = {x2}");
